@@ -6,8 +6,6 @@ html {
   background-color: #161616;
 }
 
-
-
 .scroll-top {
   width: 50px;
   height: 45px;
@@ -52,7 +50,7 @@ html {
 
 /*top image/hero text */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("comp.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/comp.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,15 +198,15 @@ hr {
   width: 220px;
 }
 
-@media only screen and (max-width: 768px){
-  #pyth{
+@media only screen and (max-width: 768px) {
+  #pyth {
     padding-right: 120px;
     width: 280px;
   }
 }
 
-@media only screen and (max-width: 575px){
-  #pyth{
+@media only screen and (max-width: 575px) {
+  #pyth {
     padding-right: 20px;
     width: 280px;
   }
@@ -224,7 +222,6 @@ hr {
 }
 
 /*project card*/
-
 #projcard {
   position: relative;
   text-align: center;
@@ -352,9 +349,8 @@ input {
 /*Projects page*/
 
 /*Header/top image*/
-
 .hero-image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("projectz.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/projectz.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
