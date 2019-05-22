@@ -139,7 +139,7 @@ hr {
 /*about me*/
 .card {
   background-color: darkgray;
-  margin-right: 100px;
+
   margin-bottom: 50px;
   box-shadow: 5px 10px 8px black;
 }
@@ -175,6 +175,20 @@ hr {
   }
 }
 
+@media only screen and (max-width: 997px) {
+  .card-text {
+    color: green;
+  }
+
+  .wrapperCard {
+    text-align: center;
+  }
+
+  .card {
+    display: inline-block;
+  }
+}
+
 /*skills*/
 .skills {
   color: darkgray;
@@ -200,14 +214,14 @@ hr {
 
 @media only screen and (max-width: 768px) {
   #pyth {
-    padding-right: 120px;
-    width: 280px;
+    padding-right: 180px;
+    width: 360px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   #pyth {
-    padding-right: 20px;
+    padding-right: 50px;
     width: 280px;
   }
 }
@@ -373,6 +387,14 @@ input {
 #p1 {
   color: darkgray;
   padding-top: 10px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 770px) {
+  #p1 {
+    padding-bottom: 50px;
+  }
 }
 
 .thumbnail {
@@ -384,7 +406,13 @@ input {
 
 /*Python*/
 #python1 {
-  max-width: 200px;
+  max-width: 150px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#pythons {
+  color: darkgray;
 }
 
 .skil {

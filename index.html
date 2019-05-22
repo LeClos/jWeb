@@ -13,6 +13,7 @@
 
 <body>
 
+  <!-- TODO, Progress bar? rounded images for websites? -->
   <!-- Top image, with name over it -->
   <div class="hero-image" id="top">
     <div class="hero-text">
@@ -69,20 +70,22 @@
     <div class="aboutme1" style="padding-bottom: 50px;">
     </div>
     <div class="row">
-      <div class="col-sm-4">
-        <div class="card" style="width: 300px; float: left;">
-          <img class="card-img-top" src="images/jared.jpg" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title"><b>Jared Le Clos</b></h4>
-            <p class="card-text"><b>Computer Science student and Web designer</b></p>
-            <div class="wrapper">
-              <a href="#cont" class="btn btn-primary nav-link"
-                style="background-color: blueviolet; border: 0px;">Contact me</a>
+      <div class="col-sm-12 col-lg-4">
+        <div class="wrapperCard">
+          <div class="card" style="width: 300px; ">
+            <img class="card-img-top" src="images/jared.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title"><b>Jared Le Clos</b></h4>
+              <p class="card-text"><b>Computer Science student and Web designer</b></p>
+              <div class="wrapper">
+                <a href="#cont" class="btn btn-primary nav-link"
+                  style="background-color: blueviolet; border: 0px;">Contact me</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-8" style="color: darkgray" id="abtme">
+      <div class="col-sm-12 col-lg-8" style="color: darkgray" id="abtme">
         <h2 class="aboutme">About me</h2>
         <h5>Hardworking developer always striving to learn more</h5>
         <div class="fakeimg">I have always loved technology and working with it, both hardware and software.</div>
@@ -94,7 +97,7 @@
         <h2 class="aboutme">Education</h2>
         <h5><b>UNIVERSITY OF WESTERN AUSTRALIA (Feb 2018 - Nov 2020)</b></h5>
         <div class="fakeimg">-Bachelor of Science major in Computer Science</div>
-        <p><b><br>Related Coursework:</b></p>
+        <p><b><br>Related Coursework completed:</b></p>
         <p>Click on each unit for more information</p>
         <p><a href="http://handbooks.uwa.edu.au/unitdetails?code=CITS1001" target="_blank" class="unit">- Software
             engineering with Java<br></a>
@@ -123,29 +126,33 @@
         </div>
       </div>
       <div class="row" style="color: darkgrey;">
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <img src="images/html.png" class="galla" id="sign">
           <p>Html</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <img src="images/css.png" class="galla" id="sign">
           <p>CSS</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <img src="images/bs4.png" class="galla" id="sign" style="margin-top: 35px">
           <p>Bootstrap 4</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <img src="images/java.png" class="galla">
           <p>Java</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <img src="images/python2.png" class="galla" id="pyth">
           <p>Python</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <img src="images/sql.png" class="galla" id="sql">
           <p>MySQL</p>
+        </div>
+        <div class="col-12">
+          <img src="images/javas.png" class="galla" id="sign">
+          <p>JavaScript</p>
         </div>
       </div>
     </div>
@@ -211,7 +218,6 @@
   <button class="btn btn-primary scroll-top" data-scroll="up" type="button" style="box-shadow: 5px 5px 10px black;">
     <i>^</i>
   </button>
-  <!-- Sticky nav script   -->
 
   <!-- Scroll to top script   -->
   <script>
@@ -249,6 +255,7 @@
       });
     });
   </script>
+
 </body>
 
 </html>
