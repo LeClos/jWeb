@@ -175,19 +175,14 @@ hr {
   }
 }
 
-@media only screen and (max-width: 997px) {
-  .card-text {
-    color: green;
-  }
-
-  .wrapperCard {
-    text-align: center;
-  }
-
-  .card {
-    display: inline-block;
-  }
+.wrapperCard {
+  text-align: center;
 }
+
+.card {
+  display: inline-block;
+}
+
 
 /*skills*/
 .skills {
@@ -207,28 +202,13 @@ hr {
   width: 100px;
 }
 
-#pyth {
-  padding-top: 60px;
-  width: 220px;
-}
-
-@media only screen and (max-width: 768px) {
-  #pyth {
-    padding-right: 180px;
-    width: 360px;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  #pyth {
-    padding-right: 50px;
-    width: 280px;
-  }
-}
-
 #sql {
   padding-top: 60px;
+}
 
+#pyff {
+  width: 100px;
+  padding-top: 60px;
 }
 
 .col {
