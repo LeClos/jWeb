@@ -390,9 +390,10 @@ input {
 
 @media screen and (max-width: 770px) {
   #p1 {
-    padding-bottom: 50px;
+    margin-bottom: 120px;
   }
 }
+
 
 .thumbnail {
   border: 1px solid darkgrey;
