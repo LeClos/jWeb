@@ -410,6 +410,10 @@ input {
     font-size: 40px;
   }
 
+  #type {
+    max-width: 100%;
+  }
+
 }
 
 
@@ -441,7 +445,13 @@ input {
 }
 
 #type {
-  max-width: 480px;
+  max-width: 100%;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+#type:hover {
+  opacity: 1;
 }
 
 /*Sql*/
