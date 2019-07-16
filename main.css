@@ -420,7 +420,11 @@ input {
   }
 
   #jlh {
-    font-size: 40px;
+    font-size: 36px;
+  }
+
+  #jlp {
+    font-size: 12px;
   }
 
   #cm {
