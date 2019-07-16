@@ -419,6 +419,14 @@ input {
     max-width: 100%;
   }
 
+  #jlh {
+    font-size: 40px;
+  }
+
+  #cm {
+    font-size: 12px;
+    padding: 5px;
+  }
 
 
 }
