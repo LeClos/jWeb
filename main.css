@@ -88,6 +88,11 @@ html {
   background-color: blueviolet;
 }
 
+#jlh {
+  font-size: 60px;
+  text-shadow: 5px 5px 20px #000000;
+}
+
 /*nav*/
 
 
@@ -413,6 +418,8 @@ input {
   #type {
     max-width: 100%;
   }
+
+
 
 }
 
