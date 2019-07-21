@@ -365,6 +365,10 @@ input {
   position: relative;
 }
 
+#home:hover {
+  background-color: blueviolet;
+}
+
 /*websites*/
 #web {
   border-bottom: 2px solid darkgrey;
