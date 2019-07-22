@@ -7,48 +7,6 @@ html {
   overflow-x: hidden;
 }
 
-.scroll-top {
-  width: 50px;
-  height: 45px;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  display: none;
-  background-color: blueviolet;
-  border: 0px;
-  opacity: 0.6;
-}
-
-.scroll-top:hover {
-  width: 50px;
-  height: 45px;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  display: none;
-  background-color: purple;
-  border: 0px;
-  opacity: 1;
-}
-
-.scroll-top i {
-  display: inline-block;
-  color: #fff;
-  font-size: 30px;
-}
-
-@media only screen and (max-width: 1330px) {
-  .scroll-top {
-    width: 40px;
-    height: 35px;
-  }
-
-  .scroll-top:hover {
-    width: 40px;
-    height: 35px;
-  }
-}
-
 /*top image/hero text */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/comp.jpg");
@@ -94,8 +52,6 @@ html {
 }
 
 /*nav*/
-
-
 .nav-item:hover {
   color: white;
 }
@@ -170,17 +126,6 @@ hr {
   color: white;
 }
 
-@media only screen and (max-width: 766px) {
-  h2 {
-    text-align: center;
-    padding-bottom: 10px;
-  }
-
-  #abtme {
-    padding: 30px;
-  }
-}
-
 .wrapperCard {
   text-align: center;
 }
@@ -188,7 +133,6 @@ hr {
 .card {
   display: inline-block;
 }
-
 
 /*skills*/
 .skills {
@@ -249,43 +193,6 @@ hr {
 
 }
 
-@media only screen and (max-width: 991px) {
-  .centered {
-    font-size: 40px;
-  }
-}
-
-@media only screen and (max-width: 770px) {
-  .centered {
-    font-size: 30px;
-  }
-}
-
-/*contact*/
-/* Style inputs */
-input[type=text],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
 /* Style the container/contact section */
 #cont {
   border-radius: 5px;
@@ -314,16 +221,6 @@ input[type=submit]:hover {
 input {
   background-color: #f2f2f2;
   color: black;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-
-  .column,
-  input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
 
 /* footer */
@@ -406,40 +303,6 @@ input {
   text-shadow: 5px 5px 20px #000000;
 }
 
-@media screen and (max-width: 770px) {
-  #p1 {
-    margin-bottom: 120px;
-  }
-
-  #top h1 {
-    font-size: 90px;
-  }
-
-  #top p {
-    font-size: 40px;
-  }
-
-  #type {
-    max-width: 100%;
-  }
-
-  #jlh {
-    font-size: 36px;
-  }
-
-  #jlp {
-    font-size: 12px;
-  }
-
-  #cm {
-    font-size: 12px;
-    padding: 5px;
-  }
-
-
-}
-
-
 .thumbnail {
   border: 1px solid darkgrey;
   max-width: 800px;
@@ -488,4 +351,63 @@ input {
 /*School*/
 .head {
   font-size: 30px;
+}
+
+/* media queries */
+@media screen and (max-width: 770px) {
+  #p1 {
+    margin-bottom: 120px;
+  }
+
+  #top h1 {
+    font-size: 90px;
+  }
+
+  #top p {
+    font-size: 40px;
+  }
+
+  #type {
+    max-width: 100%;
+  }
+
+  #jlh {
+    font-size: 36px;
+  }
+
+  #jlp {
+    font-size: 12px;
+  }
+
+  #cm {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .centered {
+    font-size: 30px;
+  }
+
+  h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  #abtme {
+    padding: 30px;
+  }
+
+  .centered {
+    font-size: 40px;
+  }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .column,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

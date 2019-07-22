@@ -13,7 +13,6 @@
 
 <body>
 
-  <!-- TODO, Progress bar? rounded images for websites? -->
   <!-- Top image, with name over it -->
   <div class="hero-image" id="top1">
     <div class="hero-text">
@@ -85,6 +84,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-sm-12 col-lg-8" style="color: darkgray" id="abtme">
         <h2 class="aboutme">About me</h2>
         <h5>Hardworking developer always striving to learn more</h5>
@@ -136,8 +136,8 @@
           <p>CSS</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/bs4.png" class="galla" id="sign" style="margin-top: 35px">
-          <p>Bootstrap 4</p>
+          <img src="images/javas.png" class="galla" id="sign">
+          <p>JavaScript</p>
         </div>
         <div class="col-6 col-sm-4">
           <img src="images/java.png" class="galla">
@@ -148,14 +148,10 @@
           <p>Python</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/sql.png" class="galla" id="sql">
-          <p>MySQL</p>
+          <img src="images/bs4.png" class="galla" id="sign" style="margin-top: 35px">
+          <p>Bootstrap 4</p>
         </div>
-        <div class="col-6">
-          <img src="images/javas.png" class="galla" id="sign">
-          <p>JavaScript</p>
-        </div>
-        <div class="col-6">
+        <div class="col-12">
           <img src="images/jq.png" class="galla" style="margin-top: 80px; max-width: 200px; padding-bottom: 20px;">
           <p>jQuery</p>
         </div>
@@ -201,31 +197,6 @@
     </div>
   </footer>
 
-  <button class="btn btn-primary scroll-top" data-scroll="up" type="button" style="box-shadow: 5px 5px 10px black;">
-    <i>^</i>
-  </button>
-
-  <!-- Scroll to top script   -->
-  <script>
-    $(document).ready(function () {
-
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-          $('.scroll-top').fadeIn();
-        } else {
-          $('.scroll-top').fadeOut();
-        }
-      });
-
-      $('.scroll-top').click(function () {
-        $("html, body").animate({
-          scrollTop: 0
-        }, 100);
-        return false;
-      });
-
-    });
-  </script>
   <!-- Smooth scroll script   -->
   <script>
     $(document).ready(function () {
