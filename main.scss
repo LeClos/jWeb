@@ -4,7 +4,8 @@ html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #161616;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 /*top image/hero text */
 .hero-image {
@@ -13,7 +14,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; }
+  position: relative;
+}
 
 .hero-text {
   text-align: center;
@@ -21,8 +23,9 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white; }
-  .hero-text button {
+  color: white;
+
+  button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -30,35 +33,51 @@ html {
     color: black;
     background-color: #ddd;
     text-align: center;
-    cursor: pointer; }
-  .hero-text button:hover {
+    cursor: pointer;
+  }
+
+  button:hover {
     background-color: #555;
-    color: white; }
+    color: white;
+  }
+}
 
 #cm {
-  box-shadow: 5px 9px 14px black; }
+  box-shadow: 5px 9px 14px black;
+}
 
 #cm:hover {
-  background-color: blueviolet; }
+  background-color: blueviolet;
+}
 
 #jlh {
   font-size: 60px;
-  text-shadow: 5px 5px 20px #000000; }
+  text-shadow: 5px 5px 20px #000000;
+}
 
 /*nav*/
 .nav-item:hover {
-  color: white; }
+  color: white;
+}
 
 .dropdown-menu {
-  background-color: darkgrey; }
+  background-color: darkgrey;
+}
 
 .dropdown-menu:hover {
-  background-color: darkgrey; }
+  background-color: darkgrey;
+}
 
-#navbar a {
-  font-family: Courier New; }
-#navbar .navbar-toggler {
-  padding-right: 20px; }
+#navbar {
+  a {
+    font-family: Courier New;
+  }
+
+  .navbar-toggler {
+    padding-right: 20px;
+  }
+}
+
 
 /*welcome text*/
 .intro {
@@ -68,7 +87,8 @@ html {
   margin-right: 15px;
   margin-top: 50px;
   text-align: center;
-  color: darkgray; }
+  color: darkgray;
+}
 
 hr {
   display: block;
@@ -79,93 +99,122 @@ hr {
   border-style: inset;
   border-width: 1px;
   width: 80%;
-  border-color: #595959; }
+  border-color: #595959;
+}
 
 /*about me*/
 .card {
   background-color: darkgray;
+
   margin-bottom: 50px;
-  box-shadow: 5px 10px 8px black; }
+  box-shadow: 5px 10px 8px black;
+}
 
 #contbtn {
   background-color: blueviolet;
-  border: 0px; }
+  border: 0px;
+}
 
 #abtme {
-  color: darkgray; }
+  color: darkgray;
+}
 
 .card-title,
 .card-text,
 .wrapper {
   text-align: center;
-  font-family: "Courier New"; }
+  font-family: "Courier New";
+}
 
 .aboutme {
   font-family: "Courier New";
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 .unit {
-  color: darkgray; }
+  color: darkgray
+}
 
 .unit:hover {
-  color: white; }
+  color: white;
+}
 
 .wrapperCard {
-  text-align: center; }
+  text-align: center;
+}
 
 .card {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /*skills*/
 .skills {
   color: darkgray;
   display: inline;
   font-size: 40px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 #skillz {
-  color: darkgray; }
-  #skillz #skillsTitle {
+  color: darkgray;
+
+  #skillsTitle {
     font-family: Courier New;
     font-size: 46px;
-    color: darkgray; }
+    color: darkgray
+  }
+}
 
 .galla {
   height: auto;
   width: 150px;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
-#sign, #b4sign {
-  width: 100px; }
+#sign {
+  width: 100px;
+}
 
 #b4sign {
-  margin-top: 35px; }
+  @extend #sign;
+  margin-top: 35px;
+}
 
 #sql {
-  padding-top: 60px; }
+  padding-top: 60px;
+}
 
 #pyff {
   width: 100px;
-  padding-top: 60px; }
+  padding-top: 60px;
+}
 
 #jq {
   margin-top: 80px;
   max-width: 200px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 .col {
-  background-color: #111111; }
+  background-color: #111111;
+}
 
 /*project card*/
 #projcard {
   position: relative;
   text-align: center;
-  color: white; }
+  color: white;
 
-#projcard img {
-  opacity: 0.3;
-  transition-duration: 0.2s;
-  box-shadow: 5px 14px 12px black; }
+}
+
+#projcard {
+  img {
+    opacity: 0.3;
+    transition-duration: 0.2s;
+    box-shadow: 5px 14px 12px black;
+
+  }
+}
 
 .centered {
   position: absolute;
@@ -175,7 +224,9 @@ hr {
   font-size: 60px;
   font-family: "Courier New";
   font-weight: 400;
-  color: white; }
+  color: white;
+
+}
 
 /* Style the container/contact section */
 #cont {
@@ -184,53 +235,71 @@ hr {
   padding: 10px;
   margin-bottom: 30px;
   box-shadow: 10px 16px 20px black;
-  text-align: center; }
-  #cont h2 {
+  text-align: center;
+
+  h2 {
     font-family: Courier New;
-    font-size: 50px; }
-  #cont img {
+    font-size: 50px;
+  }
+
+  img {
     max-width: 20px;
     padding-right: 5px;
-    margin-bottom: 4px; }
+    margin-bottom: 4px;
+  }
+}
 
 /* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
   margin-top: 6px;
-  padding: 20px; }
+  padding: 20px;
+
+}
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 input {
   background-color: #f2f2f2;
-  color: black; }
+  color: black;
+}
 
 /* footer */
 .footer-section {
-  background: #0a0a0a;
+  background: rgb(10, 10, 10);
   padding: 20px 0;
-  color: #f8f8f8; }
-  .footer-section p {
-    font-size: 14px; }
-  .footer-section a {
-    color: #ffffff; }
+  color: #f8f8f8;
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    color: #ffffff;
+  }
+
+}
 
 .insta {
   float: left;
   max-width: 36px;
-  margin-right: -3px; }
+  margin-right: -3px;
+}
 
 .fb {
   float: left;
   max-width: 33px;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 /*Projects page*/
+
 /*Header/top image*/
 .hero-image1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/projectz.png");
@@ -238,174 +307,257 @@ input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; }
-  .hero-image1 p {
+  position: relative;
+
+  p {
     position: relative;
     top: 25px;
-    text-shadow: 5px 5px 20px #000000; }
-  .hero-image1 #topp {
+    text-shadow: 5px 5px 20px #000000;
+  }
+
+  #topp {
     font-size: 20px;
-    text-shadow: 5px 5px 20px #000000; }
-  .hero-image1 #home {
-    box-shadow: 5px 9px 14px black; }
+    text-shadow: 5px 5px 20px #000000;
+  }
+
+  #home {
+    box-shadow: 5px 9px 14px black;
+  }
+}
 
 #home:hover {
-  background-color: blueviolet; }
+  background-color: blueviolet;
+}
 
 /*websites*/
 #website-section {
-  background-color: #1d1d1d; }
-  #website-section #w1 {
-    padding-bottom: 25px; }
-  #website-section .container {
+  background-color: rgb(29, 29, 29);
+
+  #w1 {
+    padding-bottom: 25px;
+  }
+
+  .container {
     margin-top: 50px;
-    color: #d6d6d6; }
-    #website-section .container h2 {
+    color: rgb(214, 214, 214);
+
+    h2 {
       text-align: center;
       margin-bottom: 40px;
       font-family: Courier New;
       font-size: 50px;
-      border-bottom: 2px solid darkgrey; }
-  #website-section .btn {
-    background-color: #530053;
+      border-bottom: 2px solid darkgrey;
+    }
+
+  }
+
+  .btn {
+    background-color: rgb(83, 0, 83);
     border: none;
-    margin: 10px 0; }
-  #website-section #p1 {
+    margin: 10px 0;
+  }
+
+  #p1 {
     color: darkgray;
     padding-top: 10px;
-    text-align: center; }
-  #website-section #myimg {
+    text-align: center;
+  }
+
+  #myimg {
     opacity: 0.7;
     transition: 0.5s;
-    width: 100%; }
+    width: 100%;
+  }
+}
 
 #webproj {
   text-align: center;
   font-size: 20px;
-  color: white; }
+  color: white;
+}
 
 #myimg:hover {
-  opacity: 1; }
+  opacity: 1;
+}
 
 #myweb {
   max-width: 500px;
-  border: 1px solid darkgrey; }
+  border: 1px solid darkgrey;
+}
 
-#top h1 {
-  font-size: 110px;
-  text-shadow: 5px 5px 20px #000000; }
-#top p {
-  font-size: 50px;
-  text-shadow: 5px 5px 20px #000000; }
+#top {
+  h1 {
+    font-size: 110px;
+    text-shadow: 5px 5px 20px #000000;
+  }
+
+  p {
+    font-size: 50px;
+    text-shadow: 5px 5px 20px #000000;
+  }
+}
 
 .thumbnail {
   border: 1px solid darkgrey;
   max-width: 800px;
   box-shadow: 5px 10px 20px black;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 /*JS*/
-#jss p {
-  color: darkgray;
-  padding: 10px 0; }
-#jss #js-title {
-  text-align: center;
-  font-size: 20px;
-  color: white; }
-#jss #js-info {
-  text-align: center;
-  font-size: 12px;
-  color: darkgray; }
-#jss .btn {
-  margin: 10px 1px; }
-#jss #python1, #jss #sqls #sqlimage, #sqls #jss #sqlimage {
-  max-width: 150px;
-  padding: 0 20px;
-  text-align: center; }
-#jss #pythons {
-  color: darkgray; }
-#jss #game {
-  opacity: 0.7;
-  transition: 0.5s; }
-#jss #game:hover {
-  opacity: 1; }
-#jss #type {
-  max-width: 100%;
-  opacity: 0.7;
-  transition: 0.5s; }
-#jss #type:hover {
-  opacity: 1; }
+
+#jss {
+  p {
+    color: darkgray;
+    padding: 10px 0;
+  }
+
+  #js-title {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  #js-info {
+    text-align: center;
+    font-size: 12px;
+    color: darkgray;
+  }
+
+  .btn {
+    margin: 10px 1px;
+  }
+
+  #python1 {
+    max-width: 150px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  #pythons {
+    color: darkgray;
+  }
+
+  #game {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  #game:hover {
+    opacity: 1;
+  }
+
+  #type {
+    max-width: 100%;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  #type:hover {
+    opacity: 1;
+  }
+}
 
 /*Sql*/
-#sqls #sqlimage {
-  max-width: 190px;
-  padding-left: 30px;
-  padding-right: 30px; }
-#sqls h1 {
-  color: darkgray;
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  font-family: Courier New;
-  font-size: 34px; }
-#sqls p {
-  color: darkgray; }
+
+#sqls {
+  #sqlimage {
+    @extend #python1;
+    max-width: 190px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h1 {
+    color: darkgray;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Courier New;
+    font-size: 34px;
+  }
+
+  p {
+    color: darkgray;
+  }
+}
 
 /*School*/
 .head {
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 #schools {
   background-color: #282828;
-  box-shadow: 15px 20px 20px black; }
-  #schools h1 {
+  box-shadow: 15px 20px 20px black;
+
+  h1 {
     color: darkgray;
     position: relative;
     margin-top: 20px;
     text-align: center;
     font-family: Courier New;
-    font-size: 50px; }
+    font-size: 50px;
+  }
+}
 
 /* media queries */
 @media screen and (max-width: 770px) {
   #p1 {
-    margin-bottom: 120px; }
+    margin-bottom: 120px;
+  }
 
-  #top h1 {
-    font-size: 90px; }
-  #top p {
-    font-size: 40px; }
+  #top {
+    h1 {
+      font-size: 90px;
+    }
+
+    p {
+      font-size: 40px;
+    }
+  }
 
   #type {
-    max-width: 100%; }
+    max-width: 100%;
+  }
 
   #jlh {
-    font-size: 36px; }
+    font-size: 36px;
+  }
 
   #jlp {
-    font-size: 12px; }
+    font-size: 12px;
+  }
 
   #cm {
     font-size: 12px;
-    padding: 5px; }
+    padding: 5px;
+  }
 
   .centered {
-    font-size: 30px; }
+    font-size: 30px;
+  }
 
   h2 {
     text-align: center;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+  }
 
   #abtme {
-    padding: 30px; }
+    padding: 30px;
+  }
 
   .centered {
-    font-size: 40px; } }
+    font-size: 40px;
+  }
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+
   .column,
   input[type=submit] {
     width: 100%;
-    margin-top: 0; } }
-
-/*# sourceMappingURL=main.css.map */
+    margin-top: 0;
+  }
+}
