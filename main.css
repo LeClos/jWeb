@@ -149,7 +149,7 @@ hr {
   padding-top: 60px; }
 
 #jq {
-  margin-top: 80px;
+  margin-top: 90px;
   max-width: 200px;
   padding-bottom: 20px; }
 
@@ -252,6 +252,11 @@ input {
 #home:hover {
   background-color: blueviolet; }
 
+#skillbar {
+  max-width: 45px;
+  margin-left: 10px;
+  margin-top: 20px; }
+
 /*websites*/
 #website-section {
   background-color: #1d1d1d; }
@@ -318,7 +323,7 @@ input {
   color: darkgray; }
 #jss .btn {
   margin: 10px 1px; }
-#jss #python1, #jss #sqls #sqlimage, #sqls #jss #sqlimage {
+#jss #python1 {
   max-width: 150px;
   padding: 0 20px;
   text-align: center; }
@@ -335,21 +340,12 @@ input {
   transition: 0.5s; }
 #jss #type:hover {
   opacity: 1; }
-
-/*Sql*/
-#sqls #sqlimage {
-  max-width: 190px;
-  padding-left: 30px;
-  padding-right: 30px; }
-#sqls h1 {
-  color: darkgray;
-  position: relative;
+#jss #web {
   text-align: center;
-  margin-top: 20px;
+  margin-bottom: 40px;
   font-family: Courier New;
-  font-size: 34px; }
-#sqls p {
-  color: darkgray; }
+  font-size: 50px;
+  border-bottom: 2px solid white; }
 
 /*School*/
 .head {
@@ -357,7 +353,8 @@ input {
 
 #schools {
   background-color: #282828;
-  box-shadow: 15px 20px 20px black; }
+  box-shadow: 15px 20px 20px black;
+  margin-top: 100px; }
   #schools h1 {
     color: darkgray;
     position: relative;
@@ -404,7 +401,7 @@ input {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column,
-  input[type=submit] {
+  input[type="submit"] {
     width: 100%;
     margin-top: 0; } }
 

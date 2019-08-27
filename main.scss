@@ -9,7 +9,8 @@ html {
 
 /*top image/hero text */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/comp.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/comp.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +79,6 @@ html {
   }
 }
 
-
 /*welcome text*/
 .intro {
   font-family: "Courier New";
@@ -132,7 +132,7 @@ hr {
 }
 
 .unit {
-  color: darkgray
+  color: darkgray;
 }
 
 .unit:hover {
@@ -161,7 +161,7 @@ hr {
   #skillsTitle {
     font-family: Courier New;
     font-size: 46px;
-    color: darkgray
+    color: darkgray;
   }
 }
 
@@ -190,7 +190,7 @@ hr {
 }
 
 #jq {
-  margin-top: 80px;
+  margin-top: 90px;
   max-width: 200px;
   padding-bottom: 20px;
 }
@@ -204,7 +204,6 @@ hr {
   position: relative;
   text-align: center;
   color: white;
-
 }
 
 #projcard {
@@ -212,7 +211,6 @@ hr {
     opacity: 0.3;
     transition-duration: 0.2s;
     box-shadow: 5px 14px 12px black;
-
   }
 }
 
@@ -225,7 +223,6 @@ hr {
   font-family: "Courier New";
   font-weight: 400;
   color: white;
-
 }
 
 /* Style the container/contact section */
@@ -255,7 +252,6 @@ hr {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
-
 }
 
 /* Clear floats after the columns */
@@ -283,7 +279,6 @@ input {
   a {
     color: #ffffff;
   }
-
 }
 
 .insta {
@@ -302,7 +297,8 @@ input {
 
 /*Header/top image*/
 .hero-image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("images/projectz.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("images/projectz.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,6 +325,13 @@ input {
   background-color: blueviolet;
 }
 
+// skillbar
+#skillbar {
+  max-width: 45px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
 /*websites*/
 #website-section {
   background-color: rgb(29, 29, 29);
@@ -348,7 +351,6 @@ input {
       font-size: 50px;
       border-bottom: 2px solid darkgrey;
     }
-
   }
 
   .btn {
@@ -456,29 +458,12 @@ input {
   #type:hover {
     opacity: 1;
   }
-}
-
-/*Sql*/
-
-#sqls {
-  #sqlimage {
-    @extend #python1;
-    max-width: 190px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  h1 {
-    color: darkgray;
-    position: relative;
+  #web {
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 40px;
     font-family: Courier New;
-    font-size: 34px;
-  }
-
-  p {
-    color: darkgray;
+    font-size: 50px;
+    border-bottom: 2px solid white;
   }
 }
 
@@ -490,6 +475,7 @@ input {
 #schools {
   background-color: #282828;
   box-shadow: 15px 20px 20px black;
+  margin-top: 100px;
 
   h1 {
     color: darkgray;
@@ -554,9 +540,8 @@ input {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-
   .column,
-  input[type=submit] {
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
