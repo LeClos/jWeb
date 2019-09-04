@@ -300,21 +300,21 @@ input {
     background-color: #530053;
     border: none;
     margin: 10px 0; }
-  #website-section #p1 {
+  #website-section .p1 {
     color: darkgray;
     padding-top: 10px;
     text-align: center; }
-  #website-section #myimg {
+  #website-section .myimg {
     opacity: 0.7;
     transition: 0.5s;
     width: 100%; }
 
-#webproj {
+.webproj {
   text-align: center;
   font-size: 20px;
   color: white; }
 
-#myimg:hover {
+.myimg:hover {
   opacity: 1; }
 
 #myweb {
@@ -354,10 +354,10 @@ input {
   text-align: center; }
 #jss #pythons {
   color: darkgray; }
-#jss #game {
+#jss .game {
   opacity: 0.7;
   transition: 0.5s; }
-#jss #game:hover {
+#jss .game:hover {
   opacity: 1; }
 #jss #type {
   max-width: 100%;
@@ -365,7 +365,7 @@ input {
   transition: 0.5s; }
 #jss #type:hover {
   opacity: 1; }
-#jss #web {
+#jss .web {
   text-align: center;
   margin-bottom: 40px;
   font-family: "Josefin Sans", sans-serif;
@@ -390,7 +390,7 @@ input {
 
 /* media queries */
 @media screen and (max-width: 770px) {
-  #p1 {
+  .p1 {
     margin-bottom: 120px; }
 
   #top h1 {
