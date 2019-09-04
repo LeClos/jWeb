@@ -4,6 +4,7 @@
   <title>jWeb</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <</lang>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Livvic&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+<html lang="en">
 
 <body>
 
@@ -19,9 +21,7 @@
     <div class="hero-text1">
       <h1 id="jlh">Jared Le Clos</h1>
       <p id="jlp">Aspiring Website Developer</p>
-      <a href="projects.html">
-        <button type="button" class="btn btn-primary" id="cm">Portfolio</button>
-      </a>
+      <a href="projects.html" class="btn btn-primary" role="button" id="cm">Portfolio</a>
     </div>
   </div>
 
@@ -96,7 +96,7 @@
         <br>
       </div>
         <h2 class="aboutme">Education</h2>
-        <div id="abt">
+  
         <h5 style="font-size: 16px;">UNIVERSITY OF WESTERN AUSTRALIA (Feb 2018 - 2020)</h5>
         <div class="fakeimg">-Bachelor of Science major in Computer Science</div>
         <p><b><br>Related Coursework completed:</b></p>
@@ -131,35 +131,35 @@
       </div>
       <div class="row">
         <div class="col-6 col-sm-4">
-          <img src="images/html.png" class="galla" id="sign">
+          <img src="images/html.png" class="galla" id="htmlsign" alt="html">
           <p>Html</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/css.png" class="galla" id="sign">
+          <img src="images/css.png" class="galla" id="csssign" alt="css">
           <p>CSS</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/javas.png" class="galla" id="sign">
+          <img src="images/javas.png" class="galla" id="jssign" alt="js">
           <p>JavaScript</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/java.png" class="galla">
+          <img src="images/java.png" class="galla" alt="java">
           <p>Java</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/pyf.png" class="galla" id="pyff">
+          <img src="images/pyf.png" class="galla" id="pyff" alt="python">
           <p>Python</p>
         </div>
         <div class="col-6 col-sm-4">
-          <img src="images/bs4.png" class="galla" id="b4sign">
+          <img src="images/bs4.png" class="galla" id="b4sign" alt="bootstrap">
           <p>Bootstrap 4</p>
         </div>
         <div class="col-6">
-          <img src="images/react.png" class="galla" id="react">
+          <img src="images/react.png" class="galla" id="react" alt="react">
           <p>React</p>
         </div>
         <div class="col-6">
-          <img src="images/jq.png" class="galla" id="jq">
+          <img src="images/jq.png" class="galla" id="jq" alt="jquery">
           <p>jQuery</p>
         </div>
       </div>
@@ -203,22 +203,8 @@
       </div>
     </div>
   </footer>
-
-  <!-- Smooth scroll script   -->
-  <script>
-    $(document).ready(function () {
-      $('#navbar li a').click(function (e) {
-
-        var targetHref = $(this).attr('href');
-
-        $('html, body').animate({
-          scrollTop: $(targetHref).offset().top
-        }, 1000);
-
-        e.preventDefault();
-      });
-    });
-  </script>
+  </html>
+  <script src="script.js"></script>
 </body>
 
 </html>

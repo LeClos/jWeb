@@ -20,9 +20,7 @@
     <div class="hero-text">
       <p>Jared Le Clos</p>
       <h1>Portfolio</h1>
-        <a href="#jss" id="home">
-          <button type="button" class="btn btn-primary" id="home">Click here to check it out!</button>
-        </a>
+      <a href="#jss" class="btn btn-primary" role="button" id="home">Click here to check it out!</a>
     </div>
   </div>
 
@@ -56,16 +54,6 @@
     </div>
   </nav>
 
-  <img src="images/html.png" id="skillbar">
-  <img src="images/css.png" id="skillbar">
-  <img src="images/javas.png" id="skillbar">
-  <img src="images/java.png" id="skillbar">
-  <img src="images/pyf.png" id="skillbar">
-  <img src="images/bs4.png" id="skillbar">
-  <img src="images/react.png" id="skillbar">
-  <img src="images/jq.png" id="skillbar">
-  
-
   <!--JS section -->
   <div class="js-section" id="javasection" style="padding-bottom: 10px;">
   </div>
@@ -73,15 +61,15 @@
   <div class="container" id="jss">
     <div class="row">
       <div class="col-md-12" style="margin-bottom: 20px;">
-        <h1 id="jst" style=" position: relative; text-align: center; font-family: Courier New; font-size: 34px;">
-          <p id="web">Web-Apps</p>
+        <h1 id="jst" style=" position: relative; text-align: center; font-family: Courier New; font-size: 34px;">  
         </h1>
+        <p id="web">Web-Apps</p>
       </div>
 
       <!-- typing game -->
       <div class="col-md-6">
-        <p id="js-title">Typing game</p>
-        <p id="js-info">(html, sass, javascript, jquery)</p>
+        <p class="js-title">Typing game</p>
+        <p class="js-info">(html, sass, javascript, jquery)</p>
         <div class="thumbnail">
           <a href="https://leclos.github.io/type/" target="_blank">
             <img src="images/type.PNG" alt="Fjords" style="width:100%;" id="game">
@@ -100,11 +88,11 @@
 
       <!-- todo app -->
       <div class="col-md-6">
-        <p id="js-title">To-do app</p>
-        <p id="js-info">(html, sass, javascript)</p>
+        <p class="js-title">To-do app</p>
+        <p class="js-info">(html, sass, javascript)</p>
         <div class="thumbnail">
           <a href="https://leclos.github.io/2D/" target="_blank">
-            <img src="images/2d.PNG" alt="Nature" style="width:100%" id="myimg">
+            <img src="images/2d.PNG" alt="Nature" style="width:100%" id="game">
             <div class="caption">
             </div>
           </a>
@@ -124,11 +112,11 @@
 
       <!-- FWG game -->
       <div class="col-md-6">
-        <p id="js-title">'Fire Water Grass' game</p>
-        <p id="js-info">(React, html, sass, javascript)</p>
+        <p class="js-title">'Fire, Water, Grass' game</p>
+        <p class="js-info">(React, html, sass, javascript)</p>
         <div class="thumbnail">
           <a href="https://leclos.github.io/FWG/" target="_blank">
-            <img src="images/fwg.PNG" alt="Nature" style="width:100%" id="myimg">
+            <img src="images/fwg.PNG" alt="Nature" style="width:100%" id="game">
             <div class="caption">
             </div>
           </a>
@@ -146,8 +134,8 @@
 
       <!-- weather app -->
       <div class="col-md-6">
-        <p id="js-title">Local weather app</p>
-        <p id="js-info">(html, sass, javascript)</p>
+        <p class="js-title">Local weather app</p>
+        <p class="js-info">(html, sass, javascript)</p>
         <div class="thumbnail">
           <a href="https://leclos.github.io/jWeather/" target="_blank">
             <img src="images/jweather.PNG" alt="Fjords" style="width:100%;" id="game">
@@ -296,35 +284,8 @@
       </div>
     </div>
   </footer>
-
-  <!-- Smooth scroll script   -->
-  <script>
-    $(document).ready(function () {
-      $('#navbar li a').click(function (e) {
-
-        var targetHref = $(this).attr('href');
-
-        $('html, body').animate({
-          scrollTop: $(targetHref).offset().top
-        }, 1000);
-
-        e.preventDefault();
-      });
-    });
-
-    $(document).ready(function () {
-      $('#home').click(function (e) {
-
-        var targetHref = $(this).attr('href');
-
-        $('html, body').animate({
-          scrollTop: $(targetHref).offset().top
-        }, 1000);
-
-        e.preventDefault();
-      });
-    });
-  </script>
+  
+  <script src="script.js"></script>
 </body>
 
 </html>
