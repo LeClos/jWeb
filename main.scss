@@ -253,7 +253,7 @@ hr {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   color: white;
@@ -270,7 +270,7 @@ hr {
 
   h2 {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
   }
 
   img {
@@ -355,6 +355,15 @@ input {
   background-color: blueviolet;
   border: 0px;
   box-shadow: 10px 16px 20px black;
+}
+
+#home1 {
+  background-color: blueviolet;
+  border: 0px;
+  position: fixed;
+  z-index: 99;
+  left: 10px;
+  top: 10px;
 }
 
 /*websites*/
@@ -545,10 +554,6 @@ input {
     padding: 5px;
   }
 
-  .centered {
-    font-size: 30px;
-  }
-
   h2 {
     text-align: center;
     padding-bottom: 10px;
@@ -559,7 +564,7 @@ input {
   }
 
   .centered {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 

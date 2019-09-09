@@ -25,4 +25,7 @@ $(document).ready(function() {
 
     e.preventDefault();
   });
+  // Home button fading in
+  $("#home1").css("display", "none");
+  $("#home1").fadeIn(1000);
 });
