@@ -8,6 +8,7 @@ html {
 }
 
 
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/comp.jpg");
   height: 95%;
@@ -61,23 +62,20 @@ html {
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: white;
-  background-color: blueviolet;
+  color: black;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   cursor: pointer;
 }
 
 #cm:hover {
-  background-color: blueviolet;
+  background-color: rgb(65, 65, 65);
+  color: white;
 }
 
 #jlh {
-  font-size: 70px;
-  text-shadow: 6px 3px 2px #000000;
-}
-
-#jlp {
-  text-shadow: 6px 3px 2px #000000;
+  font-size: 76px;
+ 
 }
 
 /*nav*/
@@ -128,7 +126,6 @@ hr {
 .card {
   background-color: darkgray;
   margin-bottom: 50px;
-  box-shadow: 5px 10px 8px black;
 }
 
 #contbtn {
@@ -246,9 +243,8 @@ hr {
 }
 
 #projcard img {
-  opacity: 0.3;
+  opacity: 0.5;
   transition-duration: 0.2s;
-  box-shadow: 5px 14px 12px black;
 }
 
 .centered {
@@ -268,7 +264,6 @@ hr {
   background-color: #bcbcbc;
   padding: 10px;
   margin-bottom: 30px;
-  box-shadow: 10px 16px 20px black;
   text-align: center;
 }
 
@@ -281,6 +276,18 @@ hr {
   max-width: 20px;
   padding-right: 5px;
   margin-bottom: 4px;
+}
+
+form{
+  position: relative;
+  left: 42%;
+}
+
+#formbutton{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 /* Create two columns that float next to eachother */
@@ -344,18 +351,22 @@ input {
 .hero-image1 p {
   position: relative;
   top: 25px;
-  text-shadow: 6px 3px 2px #000000;
 }
 
 .hero-image1 #topp {
   font-size: 20px;
-  text-shadow: 6px 3px 2px #000000;
 }
 
 #home {
-  background-color: blueviolet;
+  background-color: rgb(255, 255, 255);
   border: 0px;
+  color: black;
   box-shadow: 10px 16px 20px black;
+}
+
+#home:hover{
+  background-color: rgb(63, 63, 63);
+  color: white;
 }
 
 #home1 {
@@ -432,12 +443,10 @@ input {
 
 #top h1 {
   font-size: 100px;
-  text-shadow: 6px 3px 2px #000000;
 }
 
 #top p {
   font-size: 30px;
-  text-shadow: 6px 3px 2px #000000;
 }
 
 .thumbnail {
@@ -513,7 +522,6 @@ input {
 
 #schools {
   background-color: #282828;
-  box-shadow: 15px 20px 20px black;
   margin-top: 100px;
 }
 
