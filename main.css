@@ -54,10 +54,12 @@ html {
 #headbutt{
   border-radius: 5px;
   border: 0px;
+  background-color: #c75001;
+  color: rgb(255, 255, 255);
 }
 
 #headbutt:hover{
-  background: rgb(63, 63, 63);
+  background: rgb(100, 37, 0);
   color: white;
 }
 
@@ -539,7 +541,12 @@ input {
   }
 
   #header{
-    font-size: 18px;
+    font-size: 22px;
+  }
+
+  #subheader{
+    font-size: 14px;
+    width: 200px;
   }
 
   #hero-text>p{
@@ -606,6 +613,12 @@ input {
     left: 33%;
   }
 
+}
+
+@media screen and (max-width: 400px){
+  #me{
+margin-left: 90px;
+  }
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
