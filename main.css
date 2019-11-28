@@ -2,7 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #0c0c0c;
   overflow-x: hidden;
 }
@@ -95,7 +95,6 @@ html {
 
 /*welcome text*/
 .intro {
-  font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   margin-left: 15px;
   margin-right: 15px;
@@ -127,7 +126,6 @@ hr {
 }
 
 .aboutme {
-  font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
 }
 
@@ -169,7 +167,6 @@ hr {
 }
 
 #skillz #skillsTitle {
-  font-family: "Josefin Sans", sans-serif;
   font-size: 46px;
   color: rgb(196, 196, 196);
 }
@@ -234,7 +231,6 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
-  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   color: white;
 }
@@ -250,7 +246,6 @@ hr {
 }
 
 #cont h2 {
-  font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
 }
 
@@ -384,7 +379,6 @@ input {
 #website-section .container h2 {
   text-align: center;
   margin-bottom: 40px;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
   border-bottom: 2px solid darkgrey;
 }
@@ -492,7 +486,6 @@ input {
 #jss .web {
   text-align: center;
   margin-bottom: 40px;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
   border-bottom: 2px solid white;
 }
@@ -513,7 +506,6 @@ input {
   position: relative;
   margin-top: 20px;
   text-align: center;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
 }
 
@@ -615,9 +607,9 @@ input {
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
   #me{
-margin-left: 90px;
+margin-left: 70px;
   }
 }
 
