@@ -225,6 +225,13 @@ hr {
   transition-duration: 0.2s;
 }
 
+#myimg1{
+  border-radius: 15px;
+  opacity: 0.1;
+}
+
+
+
 .centered {
   position: absolute;
   top: 50%;
