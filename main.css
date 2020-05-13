@@ -218,17 +218,16 @@ hr {
   position: relative;
   text-align: center;
   color: white;
+  
 }
 
 #projcard img {
   opacity: 0.5;
   transition-duration: 0.2s;
+  border-radius: 25px;
 }
 
-#myimg1{
-  border-radius: 15px;
-  opacity: 0.1;
-}
+
 
 
 
@@ -244,12 +243,13 @@ hr {
 
 /* Style the container/contact section */
 #cont {
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: #030303;
   padding: 10px;
   margin-bottom: 30px;
   text-align: center;
   color: rgb(175, 175, 175);
+
 }
 
 #cont h2 {
