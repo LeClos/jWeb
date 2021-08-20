@@ -1,0 +1,23 @@
+{
+  "name": "jweb",
+  "version": "1.0.0",
+  "description": "Personal website (first website)",
+  "main": "script.js",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeClos/jWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeClos/jWeb/issues"
+  },
+  "homepage": "https://github.com/LeClos/jWeb#readme"
+}
